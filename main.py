@@ -115,7 +115,6 @@ class Taxation:
             return (index)
 
         for k, dk in self.tax_table_all_data.items():  # Read the elements of the dictionary for the given index into a new dictionary called tax_table.
-            print(dk[index])
             tax_table[k] = dk[index]
 
         return (tax_table)  # Return the tax_table dictionary for use.
@@ -370,6 +369,7 @@ def main():
 #  is a year in the index, i.e.2016-2017 or 2017-2018
 #  is not a year in the index e.g 2015-2016
 #  is not given at all - should default to 2016-2017
+
 
 if __name__ == '__main__':
     main()

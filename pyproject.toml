@@ -1,14 +1,22 @@
 [tool.poetry]
 name = "pyPAYE"
-version = "0.1.0"
+version = "0.1.2"
 description = "This is a simple python cscript that calculates PAYE and NI tax payments in the U.K."
 authors = ["Vsevolod Mineev <vsevolod.mineev@gmail.com>"]
 license = "MIT License"
+packages = [
+    { include = "main.py" },
+
+]
+homepage = "https://github.com/vsevolod-mineev/pyPAYE"
+repository = "https://github.com/vsevolod-mineev/pyPAYE"
+documentation = "https://github.com/vsevolod-mineev/pyPAYE"
+
+[tool.poetry.scripts]
+pypaye = "main:main"
 
 [tool.poetry.dependencies]
-python = "^3.9"
-
-[tool.poetry.dev-dependencies]
+python = "^3.9,<3.11"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
