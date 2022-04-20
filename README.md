@@ -2,6 +2,8 @@
 A Python class which calculates PAYE, National Insurance (N.I.), Employer's N.I. and Student Loan Repayment Deductions for the U.K. tax system for 2016-2017, 2017-2018, 2018-2019, 2019-2020, 2020-2021, 2021-2022 and 2022-2023. 
 
 This script has been updated and improved from the previous work done by Click Technology here: https://github.com/clicktechnology/pyPAYE
+
+This version of the project is maintained by: https://www.first4freelancers.co.uk/
  
 # Installation
  
